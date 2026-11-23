@@ -24,4 +24,12 @@ public class Calculator {
         int difference = dif(product, 6);
         return div(difference, 3);
     }
+
+    public int solver() {
+    int sum   = add(10, 5);        
+    int mult  = times(sum, 2);     
+    int quot  = div(8, 4);         
+    int result = dif(mult, quot); 
+    return result;
+}
 }
